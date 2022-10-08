@@ -4,20 +4,20 @@ public class Dog {
     public int age;
     public String name;
     public int human_age;
-    public String get_name(Dog d){
-        return d.name;
+    public String get_name(){
+        return name;
     }
-    public void set_name(Dog d, String n){
-        d.name=n;
+    public void set_name(String n){
+        name=n;
     }
-    public int get_age(Dog d){
-        return d.age;
+    public int get_age(){
+        return age;
     }
-    public void set_age(Dog d, int a){
-        d.age=a;
+    public void set_age(int a){
+        age=a;
     }
-    public int convert_age(Dog d){
-        return d.age*7;
+    public int convert_age(){
+        return age*7;
     }
     public String toString(){
         return "Dog{"
