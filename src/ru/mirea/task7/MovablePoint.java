@@ -1,10 +1,10 @@
 package ru.mirea.task7;
 
 public class MovablePoint implements Movable{
-    public int x;
-    public int y;
-    public int xSpeed;
-    public int ySpeed;
+    int x;
+    int y;
+    int xSpeed;
+    int ySpeed;
     @Override
     public void moveUp(){
         y+=1;
