@@ -5,6 +5,7 @@ public class TestDog {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter dog's amount: ");
         Dog arr[]=Create_dog_array(scan.nextInt());
+
         Array_output(arr);
     }
     public static Dog[] Create_dog_array(int n){

@@ -1,12 +1,13 @@
 package ru.mirea.task2;
 
 public class Dog {
-    public int age;
+    int age;
     public String name;
     public int human_age;
     public String get_name(){
         return name;
     }
+
     public void set_name(String n){
         name=n;
     }
