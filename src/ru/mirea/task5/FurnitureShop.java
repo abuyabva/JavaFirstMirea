@@ -16,7 +16,7 @@ public class FurnitureShop {
         for(int i=0;i<3;i++){
             boolean flag=true;
             System.out.println("What do you want to buy?");
-            System.out.println("Enter your choice");
+            System.out.println("Enter your choice (type of furniture)");
             Scanner scanner = new Scanner(System.in);
             String str = scanner.nextLine();
             switch (str){
@@ -36,7 +36,7 @@ public class FurnitureShop {
                     System.out.println("Do you want to buy something else?");
                     System.out.println("Enter 'Yes' or 'No': ");
                     String s = scanner.nextLine();
-                    if(s=="No"){
+                    if(s.equals("No")){
                         flag =false;
                         break;
                     }
@@ -57,7 +57,7 @@ public class FurnitureShop {
                     System.out.println("Do you want to buy something else?");
                     System.out.println("Enter 'Yes' or 'No': ");
                     String s = scanner.nextLine();
-                    if(s=="No"){
+                    if(s.equals("No")){
                         flag =false;
                         break;
                     }
@@ -78,7 +78,7 @@ public class FurnitureShop {
                     System.out.println("Do you want to buy something else?");
                     System.out.println("Enter 'Yes' or 'No': ");
                     String s = scanner.nextLine();
-                    if(s=="No"){
+                    if(s.equals("No")){
                         flag =false;
                         break;
                     }
@@ -90,7 +90,7 @@ public class FurnitureShop {
                     System.out.println("Do you want to buy something else?");
                     System.out.println("Enter 'Yes' or 'No': ");
                     String s = scanner.nextLine();
-                    if(s=="No"){
+                    if(s.equals("No")){
                         flag =false;
                         break;
                     }
